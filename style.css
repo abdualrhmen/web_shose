@@ -105,6 +105,22 @@ a {
   color: var(--dark);
 }
 
+.lang-toggle {
+  border: 1px solid rgba(108, 20, 208, 0.18);
+  background: rgba(108, 20, 208, 0.06);
+  color: var(--purple);
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.lang-toggle:hover {
+  background: linear-gradient(90deg, var(--pink), var(--purple));
+  color: #fff;
+}
+
 .icons i {
   width: 42px;
   height: 42px;
@@ -633,6 +649,67 @@ section {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.creator-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 18px;
+}
+
+.creator-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.creator-image {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.creator-label {
+  display: block;
+  font-size: 0.7rem;
+  color: #ffc5eb;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 6px;
+}
+
+.creator-header h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.creator-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.creator-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 8px 10px;
+  transition: all 0.3s ease;
+}
+
+.creator-links a:hover {
+  background: linear-gradient(90deg, var(--pink), var(--purple));
+  transform: translateY(-1px);
 }
 
 @media (max-width: 980px) {

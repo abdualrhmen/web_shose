@@ -23,47 +23,47 @@
         </div>
 
         <ul class="nav-links">
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#Products">Products</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Review">Review</a></li>
-          <li><a href="#Services">Services</a></li>
+          <li><a href="#Home" data-i18n="nav.home">الرئيسية</a></li>
+          <li><a href="#Products" data-i18n="nav.products">المنتجات</a></li>
+          <li><a href="#About" data-i18n="nav.about">من نحن</a></li>
+          <li><a href="#Review" data-i18n="nav.review">التقييمات</a></li>
+          <li><a href="#Services" data-i18n="nav.services">الخدمات</a></li>
         </ul>
 
         <div class="icons">
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-cart-shopping"></i>
-          <i class="fa-solid fa-user"></i>
+          <button class="lang-toggle" type="button" data-lang-toggle>English</button>
+          <i class="fa-solid fa-heart" aria-label="Favorites"></i>
+          <i class="fa-solid fa-cart-shopping" aria-label="Cart"></i>
+          <i class="fa-solid fa-user" aria-label="Profile"></i>
         </div>
       </nav>
 
       <div class="hero-content container">
         <div class="hero-text">
-          <p class="eyebrow">New season • New energy</p>
-          <h1>NIKE <span>Collection</span></h1>
-          <p class="lead">
-            Discover premium footwear built for motion, comfort, and daily style.
-            From city streets to training sessions, our collection helps you move with
-            confidence and stand out in every step.
+          <p class="eyebrow" data-i18n="hero.eyebrow">موسم جديد • طاقة جديدة</p>
+          <h1 data-i18n="hero.title">مجموعة <span>نايك</span></h1>
+          <p class="lead" data-i18n="hero.text">
+            اكتشف أحذية فاخرة مصممة للحركة والراحة وأسلوب الحياة اليومي. من شوارع المدينة
+            إلى جلسات التدريب، تساعدك مجموعتنا على التحرك بثقة والتميز في كل خطوة.
           </p>
 
           <div class="hero-actions">
-            <a href="#Products" class="primary-btn">Shop Now</a>
-            <a href="#About" class="secondary-btn">Learn More</a>
+            <a href="#Products" class="primary-btn" data-i18n="hero.cta1">تسوق الآن</a>
+            <a href="#About" class="secondary-btn" data-i18n="hero.cta2">المزيد</a>
           </div>
 
           <div class="hero-stats">
             <div>
               <strong>20k+</strong>
-              <span>Happy shoppers</span>
+              <span data-i18n="stats.customers">عملاء سعداء</span>
             </div>
             <div>
               <strong>4.9/5</strong>
-              <span>Customer rating</span>
+              <span data-i18n="stats.rating">تقييم العملاء</span>
             </div>
             <div>
               <strong>48h</strong>
-              <span>Fast delivery</span>
+              <span data-i18n="stats.delivery">توصيل سريع</span>
             </div>
           </div>
         </div>
@@ -84,8 +84,8 @@
     <main>
       <section class="products" id="Products">
         <div class="section-heading">
-          <p>Featured collection</p>
-          <h2>Popular <span>Products</span></h2>
+          <p data-i18n="products.label">مجموعة مميزة</p>
+          <h2><span data-i18n="products.title">المنتجات</span> الشائعة</h2>
         </div>
 
         <div class="products-grid container">
@@ -98,8 +98,8 @@
               <img src="image/shoes/shoes1.png" alt="shoe 1" />
             </div>
             <div class="products_text">
-              <h3>Air Max Pro</h3>
-              <p>Engineered for everyday comfort.</p>
+              <h3 data-i18n="product1.name">إير ماكس برو</h3>
+              <p data-i18n="product1.desc">مصممة للراحة اليومية والسهولة في الحركة.</p>
               <div class="price-row">
                 <span class="price">$200</span>
                 <div class="products_star">
@@ -123,8 +123,8 @@
               <img src="image/shoes/shoes2.png" alt="shoe 2" />
             </div>
             <div class="products_text">
-              <h3>Velocity Run</h3>
-              <p>Lightweight style for your pace.</p>
+              <h3 data-i18n="product2.name">فيلوسيتي ران</h3>
+              <p data-i18n="product2.desc">أسلوب خفيف يناسب سرعتك اليومية.</p>
               <div class="price-row">
                 <span class="price">$100.99</span>
                 <div class="products_star">
@@ -148,8 +148,8 @@
               <img src="image/shoes/shoes3.png" alt="shoe 3" />
             </div>
             <div class="products_text">
-              <h3>Urban Flex</h3>
-              <p>Enhanced grip and a sleek profile.</p>
+              <h3 data-i18n="product3.name">أوربان فليكس</h3>
+              <p data-i18n="product3.desc">قبضة محسنة وتصميم أنيق ومميز.</p>
               <div class="price-row">
                 <span class="price">$175.99</span>
                 <div class="products_star">
@@ -173,8 +173,8 @@
               <img src="image/shoes/shoes4.png" alt="shoe 4" />
             </div>
             <div class="products_text">
-              <h3>Trail Edge</h3>
-              <p>Built for movement, outdoors and beyond.</p>
+              <h3 data-i18n="product4.name">تريل إيدج</h3>
+              <p data-i18n="product4.desc">مصممة للحركة في الهواء الطلق وبكل ثقة.</p>
               <div class="price-row">
                 <span class="price">$120.99</span>
                 <div class="products_star">
@@ -198,8 +198,8 @@
               <img src="image/shoes/shoes5.png" alt="shoe 5" />
             </div>
             <div class="products_text">
-              <h3>Metro Lite</h3>
-              <p>Clean lines with everyday performance.</p>
+              <h3 data-i18n="product5.name">مترو لايت</h3>
+              <p data-i18n="product5.desc">خطوط أنيقة وأداء ممتاز في اليوم اليومي.</p>
               <div class="price-row">
                 <span class="price">$150.99</span>
                 <div class="products_star">
@@ -223,8 +223,8 @@
               <img src="image/shoes/shoes6.png" alt="shoe 6" />
             </div>
             <div class="products_text">
-              <h3>Air Elevate</h3>
-              <p>Premium comfort that goes all day.</p>
+              <h3 data-i18n="product6.name">إير إيلافيت</h3>
+              <p data-i18n="product6.desc">راحة فاخرة تدوم طوال اليوم.</p>
               <div class="price-row">
                 <span class="price">$220.99</span>
                 <div class="products_star">
@@ -248,8 +248,8 @@
               <img src="image/shoes/shoes7.png" alt="shoe 7" />
             </div>
             <div class="products_text">
-              <h3>Pulse Runner</h3>
-              <p>Made for those who keep moving.</p>
+              <h3 data-i18n="product7.name">بولس رانر</h3>
+              <p data-i18n="product7.desc">مناسبة لمن لا يتوقفون عن الحركة.</p>
               <div class="price-row">
                 <span class="price">$110.99</span>
                 <div class="products_star">
@@ -273,8 +273,8 @@
               <img src="image/shoes/shoes8.png" alt="shoe 8" />
             </div>
             <div class="products_text">
-              <h3>Sport Edge</h3>
-              <p>Balanced comfort, energy, and style.</p>
+              <h3 data-i18n="product8.name">سبورت إيدج</h3>
+              <p data-i18n="product8.desc">توازن مثالي بين الراحة والطاقة والأناقة.</p>
               <div class="price-row">
                 <span class="price">$150.99</span>
                 <div class="products_star">
@@ -293,8 +293,8 @@
 
       <section class="about" id="About">
         <div class="section-heading">
-          <p>Why choose us</p>
-          <h2>About <span>Our Store</span></h2>
+          <p data-i18n="about.label">لماذا نحن</p>
+          <h2 data-i18n="about.title">من نحن <span>متجرنا</span></h2>
         </div>
 
         <div class="about_main container">
@@ -311,50 +311,50 @@
           </div>
 
           <div class="about_text">
-            <p>
-              We design every pair to blend comfort, technology, and style into one
-              modern experience. Whether you are training, commuting, or relaxing,
-              our footwear supports your day with premium materials and precise fit.
+            <p data-i18n="about.text">
+              نُصمّم كل زوج من الأحذية ليمتزج فيه الراحة والتقنية والأناقة في تجربة حديثة
+              متكاملة. سواء كنت تتدرب، أو تذهب إلى العمل، أو تسترخي في عطلتك، فإن أحذيتنا
+              تدعم يومك بمواصفات فاخرة وملائمة دقيقة.
             </p>
             <ul>
-              <li><i class="fa-solid fa-circle-check"></i> Premium quality materials</li>
-              <li><i class="fa-solid fa-circle-check"></i> Lightweight and breathable design</li>
-              <li><i class="fa-solid fa-circle-check"></i> Free shipping over $100</li>
+              <li><i class="fa-solid fa-circle-check"></i><span data-i18n="about.list1">مواد عالية الجودة</span></li>
+              <li><i class="fa-solid fa-circle-check"></i><span data-i18n="about.list2">تصميم خفيف ومريح ونفاذ للهواء</span></li>
+              <li><i class="fa-solid fa-circle-check"></i><span data-i18n="about.list3">شحن مجاني فوق 100 دولار</span></li>
             </ul>
-            <a href="#Products" class="about_btn">Shop Collection</a>
+            <a href="#Products" class="about_btn" data-i18n="about.button">تسوق المجموعة</a>
           </div>
         </div>
       </section>
 
       <section class="services" id="Services">
         <div class="section-heading">
-          <p>Premium support</p>
-          <h2>Our <span>Services</span></h2>
+          <p data-i18n="services.label">دعم فاخر</p>
+          <h2 data-i18n="services.title">خدماتنا <span>المميزة</span></h2>
         </div>
 
         <div class="services-grid container">
           <div class="service-card">
             <i class="fa-solid fa-truck-fast"></i>
-            <h3>Fast Delivery</h3>
-            <p>Quick shipping across the country with safe packaging.</p>
+            <h3 data-i18n="service1.title">توصيل سريع</h3>
+            <p data-i18n="service1.desc">شحن سريع عبر البلاد مع تغليف آمن.</p>
           </div>
           <div class="service-card">
             <i class="fa-solid fa-shield-heart"></i>
-            <h3>Secure Payment</h3>
-            <p>Protected payments and easy checkout in seconds.</p>
+            <h3 data-i18n="service2.title">دفع آمن</h3>
+            <p data-i18n="service2.desc">مدفوعات محمية وشراء سهل خلال ثوانٍ.</p>
           </div>
           <div class="service-card">
             <i class="fa-solid fa-rotate-left"></i>
-            <h3>Easy Returns</h3>
-            <p>Hassle-free returns to keep every purchase stress-free.</p>
+            <h3 data-i18n="service3.title">استرجاع سهل</h3>
+            <p data-i18n="service3.desc">إرجاع خالٍ من المتاعب لتجربة شراء مريحة.</p>
           </div>
         </div>
       </section>
 
       <section class="review" id="Review">
         <div class="section-heading">
-          <p>Customer feedback</p>
-          <h2>Client <span>Reviews</span></h2>
+          <p data-i18n="review.label">آراء العملاء</p>
+          <h2 data-i18n="review.title">مراجعات <span>العملاء</span></h2>
         </div>
 
         <div class="review_box container">
@@ -377,9 +377,8 @@
               </div>
             </div>
             <div class="comment">
-              <p>
-                “The comfort is amazing and the design looks premium. I receive compliments
-                every time I wear them.”
+              <p data-i18n="review1.text">
+                “الراحة رائعة والتصميم يبدو فاخرًا، وأحصل على الإعجاب في كل مرة أرتديها.”
               </p>
             </div>
           </div>
@@ -403,9 +402,8 @@
               </div>
             </div>
             <div class="comment">
-              <p>
-                “Perfect balance of style and comfort. The delivery was fast and the quality
-                exceeded expectations.”
+              <p data-i18n="review2.text">
+                “توازن مثالي بين الأناقة والراحة، والتوصيل كان سريعًا وجودة المنتج تجاوزت التوقعات.”
               </p>
             </div>
           </div>
@@ -429,9 +427,8 @@
               </div>
             </div>
             <div class="comment">
-              <p>
-                “This is one of the best sneaker purchases I’ve made. Super lightweight and
-                very modern in appearance.”
+              <p data-i18n="review3.text">
+                "هذا من أفضل المشتريات التي قمت بها، خفيف جدًا في الاستخدام ويبدو عصريًا جدًا." 
               </p>
             </div>
           </div>
@@ -443,32 +440,181 @@
       <div class="container footer-inner">
         <div>
           <h3>Shoe<span>Store</span></h3>
-          <p>Premium shoes for every habit and mood.</p>
+          <p data-i18n="footer.about">أحذية فاخرة لكل عادة وذوق.</p>
         </div>
         <div>
-          <h4>Links</h4>
+          <h4 data-i18n="footer.linksTitle">روابط</h4>
           <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Products">Products</a></li>
-            <li><a href="#About">About</a></li>
+            <li><a href="#Home" data-i18n="nav.home">الرئيسية</a></li>
+            <li><a href="#Products" data-i18n="nav.products">المنتجات</a></li>
+            <li><a href="#About" data-i18n="nav.about">من نحن</a></li>
           </ul>
         </div>
         <div>
-          <h4>Contact</h4>
-          <ul>
-            <li>alhmydybdalrhmn997@gmail.com</li>
-            <li>+967 713766854</li>
-            <li>IBB, YEMEN</li>
-          </ul>
+          <h4 data-i18n="footer.contactTitle">تواصل</h4>
+          <div class="creator-card">
+            <div class="creator-header">
+              <img src="abdualrhmenali.png" alt="منشئ الموقع" class="creator-image" />
+              <div>
+                <span class="creator-label">تصميم وبرمجة  الموقع</span>
+                <h4>المهندس عبدالرحمن الحميدي</h4>
+              </div>
+            </div>
+
+            <div class="creator-links">
+              <a href="https://wa.me/967713766854" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i> واتساب
+              </a>
+              <a href="https://www.facebook.com/share/1cwJiJ4yzx/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook-f"></i> فيسبوك
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
 
     <script>
+      const translations = {
+        ar: {
+          'nav.home': 'الرئيسية',
+          'nav.products': 'المنتجات',
+          'nav.about': 'من نحن',
+          'nav.review': 'التقييمات',
+          'nav.services': 'الخدمات',
+          'hero.eyebrow': 'موسم جديد • طاقة جديدة',
+          'hero.title': 'مجموعة نايك',
+          'hero.text': 'اكتشف أحذية فاخرة مصممة للحركة والراحة وأسلوب الحياة اليومي. من شوارع المدينة إلى جلسات التدريب، تساعدك مجموعتنا على التحرك بثقة والتميز في كل خطوة.',
+          'hero.cta1': 'تسوق الآن',
+          'hero.cta2': 'المزيد',
+          'stats.customers': 'عملاء سعداء',
+          'stats.rating': 'تقييم العملاء',
+          'stats.delivery': 'توصيل سريع',
+          'products.label': 'مجموعة مميزة',
+          'products.title': 'المنتجات',
+          'product1.name': 'إير ماكس برو',
+          'product1.desc': 'مصممة للراحة اليومية والسهولة في الحركة.',
+          'product2.name': 'فيلوسيتي ران',
+          'product2.desc': 'أسلوب خفيف يناسب سرعتك اليومية.',
+          'product3.name': 'أوربان فليكس',
+          'product3.desc': 'قبضة محسنة وتصميم أنيق ومميز.',
+          'product4.name': 'تريل إيدج',
+          'product4.desc': 'مصممة للحركة في الهواء الطلق وبكل ثقة.',
+          'product5.name': 'مترو لايت',
+          'product5.desc': 'خطوط أنيقة وأداء ممتاز في اليوم اليومي.',
+          'product6.name': 'إير إيلافيت',
+          'product6.desc': 'راحة فاخرة تدوم طوال اليوم.',
+          'product7.name': 'بولس رانر',
+          'product7.desc': 'مناسبة لمن لا يتوقفون عن الحركة.',
+          'product8.name': 'سبورت إيدج',
+          'product8.desc': 'توازن مثالي بين الراحة والطاقة والأناقة.',
+          'about.label': 'لماذا نحن',
+          'about.title': 'من نحن',
+          'about.text': 'نُصمّم كل زوج من الأحذية ليمتزج فيه الراحة والتقنية والأناقة في تجربة حديثة متكاملة. سواء كنت تتدرب، أو تذهب إلى العمل، أو تسترخي في عطلتك، فإن أحذيتنا تدعم يومك بمواصفات فاخرة وملائمة دقيقة.',
+          'about.list1': 'مواد عالية الجودة',
+          'about.list2': 'تصميم خفيف ومريح ونفاذ للهواء',
+          'about.list3': 'شحن مجاني فوق 100 دولار',
+          'about.button': 'تسوق المجموعة',
+          'services.label': 'دعم فاخر',
+          'services.title': 'خدماتنا',
+          'service1.title': 'توصيل سريع',
+          'service1.desc': 'شحن سريع عبر البلاد مع تغليف آمن.',
+          'service2.title': 'دفع آمن',
+          'service2.desc': 'مدفوعات محمية وشراء سهل خلال ثوانٍ.',
+          'service3.title': 'استرجاع سهل',
+          'service3.desc': 'إرجاع خالٍ من المتاعب لتجربة شراء مريحة.',
+          'review.label': 'آراء العملاء',
+          'review.title': 'مراجعات العملاء',
+          'review1.text': '“الراحة رائعة والتصميم يبدو فاخرًا، وأحصل على الإعجاب في كل مرة أرتديها.”',
+          'review2.text': '“توازن مثالي بين الأناقة والراحة، والتوصيل كان سريعًا وجودة المنتج تجاوزت التوقعات.”',
+          'review3.text': '“هذا من أفضل المشتريات التي قمت بها، خفيف جدًا في الاستخدام ويبدو عصريًا جدًا.”',
+          'footer.about': 'أحذية فاخرة لكل عادة وذوق.',
+          'footer.linksTitle': 'روابط',
+          'footer.contactTitle': 'تواصل',
+        },
+        en: {
+          'nav.home': 'Home',
+          'nav.products': 'Products',
+          'nav.about': 'About',
+          'nav.review': 'Reviews',
+          'nav.services': 'Services',
+          'hero.eyebrow': 'New season • New energy',
+          'hero.title': 'NIKE Collection',
+          'hero.text': 'Discover premium footwear designed for movement, comfort, and daily life. From city streets to training sessions, our collection helps you move with confidence and stand out at every step.',
+          'hero.cta1': 'Shop now',
+          'hero.cta2': 'Learn more',
+          'stats.customers': 'Happy shoppers',
+          'stats.rating': 'Customer rating',
+          'stats.delivery': 'Fast delivery',
+          'products.label': 'Featured collection',
+          'products.title': 'Popular Products',
+          'product1.name': 'Air Max Pro',
+          'product1.desc': 'Built for everyday comfort and smooth movement.',
+          'product2.name': 'Velocity Run',
+          'product2.desc': 'Lightweight style that matches your pace.',
+          'product3.name': 'Urban Flex',
+          'product3.desc': 'Improved grip with a sleek silhouette.',
+          'product4.name': 'Trail Edge',
+          'product4.desc': 'Built for outdoor movement and confidence.',
+          'product5.name': 'Metro Lite',
+          'product5.desc': 'Clean lines and great daily performance.',
+          'product6.name': 'Air Elevate',
+          'product6.desc': 'Premium comfort that lasts all day.',
+          'product7.name': 'Pulse Runner',
+          'product7.desc': 'For people who never stop moving.',
+          'product8.name': 'Sport Edge',
+          'product8.desc': 'Perfect balance of comfort, energy, and style.',
+          'about.label': 'Why choose us',
+          'about.title': 'About our store',
+          'about.text': 'We design every pair of shoes to combine comfort, technology, and style into one modern experience. Whether you are training, commuting, or relaxing, our footwear supports your day with premium materials and a precise fit.',
+          'about.list1': 'Premium quality materials',
+          'about.list2': 'Lightweight, breathable, and comfortable design',
+          'about.list3': 'Free shipping over $100',
+          'about.button': 'Shop collection',
+          'services.label': 'Premium support',
+          'services.title': 'Our services',
+          'service1.title': 'Fast delivery',
+          'service1.desc': 'Quick shipping with secure and safe packaging.',
+          'service2.title': 'Secure payment',
+          'service2.desc': 'Protected payments and easy checkout in seconds.',
+          'service3.title': 'Easy returns',
+          'service3.desc': 'Hassle-free returns for a smooth shopping experience.',
+          'review.label': 'Customer feedback',
+          'review.title': 'Client reviews',
+          'review1.text': '“The comfort is amazing and the design looks premium. I get compliments every time I wear them.”',
+          'review2.text': '“Perfect balance of style and comfort. Delivery was fast and the quality exceeded expectations.”',
+          'review3.text': '“This is one of the best sneaker purchases I’ve made. It is very light and looks modern.”',
+          'footer.about': 'Premium shoes for every habit and mood.',
+          'footer.linksTitle': 'Links',
+          'footer.contactTitle': 'Contact',
+        }
+      };
+
+      let currentLang = 'ar';
+
       function changeMainImage(image) {
         const mainImage = document.getElementById('imagebox');
         mainImage.src = image.src;
       }
+
+      function setLanguage(lang) {
+        currentLang = lang;
+        document.querySelectorAll('[data-i18n]').forEach((element) => {
+          const key = element.getAttribute('data-i18n');
+          if (translations[lang] && translations[lang][key]) {
+            element.textContent = translations[lang][key];
+          }
+        });
+
+        const toggle = document.querySelector('[data-lang-toggle]');
+        toggle.textContent = currentLang === 'ar' ? 'English' : 'العربية';
+      }
+
+      document.querySelector('[data-lang-toggle]').addEventListener('click', () => {
+        setLanguage(currentLang === 'ar' ? 'en' : 'ar');
+      });
+
+      setLanguage(currentLang);
     </script>
   </body>
 </html>
