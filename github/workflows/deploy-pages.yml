@@ -1,0 +1,13 @@
+  - name: Prepare site folder
+    run: |
+      rm -rf site
+      mkdir site
+      # Copy static files and folders
+      cp -r index.html style.css image site || true
+      cp -r *.png site || true
+
+  - name: Deploy to GitHub Pages
+    uses: JamesIves/github-pages-deploy-action@v4
+    with:
+      branch: gh-pages
+      folder: site
